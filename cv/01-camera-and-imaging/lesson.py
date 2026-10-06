@@ -1,1 +1,0 @@
-"""Camera and imaging."""

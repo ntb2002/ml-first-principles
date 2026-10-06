@@ -18,17 +18,19 @@ python -m ipykernel install --user --name ml-first-principles --display-name "ml
 jupyter lab
 ```
 
-## How a session works
+## Where notes go
 
-Each lesson folder has three files:
+Math, lecture, and reading notes stay in the paper notebook. That is Phase 0 (3Blue1Brown and probability), the CV lecture courses, and the parts of a coding session that are drawings and derivations.
+
+This repo starts when there is a program to write. Each coding lesson has three files:
 
 - `lesson.ipynb` is the working session
 - `lesson.py` is the clean version, written after the notebook works
-- `NOTES.md` is what you built, what broke, and what clicked
+- `NOTES.md` is a short log of what the code did, what broke, and what clicked
 
-Commit at the end of the session, with a message about what you learned. A lesson is done when the code is committed and you can explain it with the laptop closed.
+Commit at the end of a coding session, with a message about what you learned. A lesson is done when the code is committed and you can explain it with the laptop closed.
 
-Project 1 (winter) and Project 2 (spring) get their own repos. This repo keeps the trunk: math notes, Karpathy, Kalman, and the CV curriculum.
+Project 1 (winter) and Project 2 (spring) get their own repos. Kalman exercises, the CS231n assignments, and visual odometry get a folder here when that code starts.
 
 ## Progress
 
@@ -42,15 +44,7 @@ Project 1 (winter) and Project 2 (spring) get their own repos. This repo keeps t
 
 ## Map
 
-### `math/`
-
-| Folder | Lesson |
-| --- | --- |
-| `01-linear-algebra` | 3Blue1Brown, Essence of Linear Algebra |
-| `02-calculus` | 3Blue1Brown, Essence of Calculus |
-| `03-neural-networks` | 3Blue1Brown, Neural Networks (backprop, transformers, attention) |
-| `04-cross-entropy` | 3Blue1Brown, cross-entropy |
-| `05-probability` | Bayes, Gaussians, maximum likelihood, expectation and variance |
+Paper notebook for now: Essence of Linear Algebra, then Calculus, the Neural Networks series, cross-entropy, and the probability block.
 
 ### `karpathy/`
 
@@ -65,32 +59,6 @@ Project 1 (winter) and Project 2 (spring) get their own repos. This repo keeps t
 | `07-gpt` | GPT from scratch |
 | `08-tokenizer` | GPT tokenizer |
 | `09-gpt2` | Reproduce GPT-2 (124M), scaled down or on a rented GPU |
-
-### `kalman/`
-
-| Folder | Lesson |
-| --- | --- |
-| `01-through-multivariate` | Labbe chapters 1–8, before the winter tracker |
-| `02-ekf-ukf` | Labbe chapters 9–12 |
-
-### `cv/`
-
-| Folder | Lesson |
-| --- | --- |
-| `01-camera-and-imaging` | First Principles of Computer Vision, module 1 |
-| `02-features-and-boundaries` | Module 2 |
-| `03-3d-reconstruction` | Modules 3–4 |
-| `04-cs231n` | Stanford CS231n, Spring 2025 lectures |
-| `05-cs231n-assignments` | CS231n assignments |
-| `06-hf-cv-course` | Hugging Face Community Computer Vision Course |
-| `07-visual-odometry` | Visual odometry and state estimation |
-
-### `stretch/`
-
-| Folder | Lesson |
-| --- | --- |
-| `01-lerobot` | Hugging Face Robotics course / LeRobot |
-| `02-nanochat` | Karpathy's end-to-end chat pipeline |
 
 ## Highlights
 
